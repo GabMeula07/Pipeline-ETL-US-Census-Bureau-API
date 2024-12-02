@@ -1,0 +1,6 @@
+[2024-12-01T23:02:07.202-0300] {processor.py:186} INFO - Started process (PID=68971) to work on /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-01T23:02:07.203-0300] {processor.py:914} INFO - Processing file /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-12-01T23:02:07.205-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:07.205-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-01T23:02:07.209-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:07.209-0300] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-12-01T23:02:07.209-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-01T23:02:07.224-0300] {processor.py:208} INFO - Processing /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds

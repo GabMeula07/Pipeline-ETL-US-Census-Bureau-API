@@ -1,0 +1,15 @@
+[2024-12-01T23:02:18.675-0300] {processor.py:186} INFO - Started process (PID=69196) to work on /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-01T23:02:18.677-0300] {processor.py:914} INFO - Processing file /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-01T23:02:18.680-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.679-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-01T23:02:18.692-0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-01T23:02:18.853-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.852-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-12-01T23:02:18.867-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.867-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-12-01T23:02:18.877-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.876-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-12-01T23:02:18.890-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.889-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2024-12-01T23:02:18.899-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.898-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2024-12-01T23:02:18.908-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.907-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2024-12-01T23:02:18.917-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.917-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2024-12-01T23:02:18.918-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.918-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T23:02:18.933-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.932-0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2024-12-01T23:02:18.933-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:18.933-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-01T23:02:18.962-0300] {processor.py:208} INFO - Processing /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.296 seconds

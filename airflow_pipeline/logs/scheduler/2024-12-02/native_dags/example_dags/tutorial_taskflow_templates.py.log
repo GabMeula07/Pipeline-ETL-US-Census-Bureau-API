@@ -1,0 +1,15 @@
+[2024-12-01T23:02:10.793-0300] {processor.py:186} INFO - Started process (PID=69045) to work on /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-01T23:02:10.794-0300] {processor.py:914} INFO - Processing file /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-01T23:02:10.796-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:10.796-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-01T23:02:10.821-0300] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-01T23:02:10.955-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:10.954-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_templates
+[2024-12-01T23:02:10.970-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:10.969-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_templates
+[2024-12-01T23:02:10.978-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:10.977-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial_taskflow_templates
+[2024-12-01T23:02:10.993-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:10.992-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_templates
+[2024-12-01T23:02:11.002-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.002-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_templates
+[2024-12-01T23:02:11.011-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.010-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_templates
+[2024-12-01T23:02:11.020-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.019-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_templates
+[2024-12-01T23:02:11.020-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.020-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-01T23:02:11.036-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.035-0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial_taskflow_templates
+[2024-12-01T23:02:11.048-0300] {logging_mixin.py:190} INFO - [2024-12-01T23:02:11.048-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-01 00:00:00+00:00, run_after=2024-12-02 00:00:00+00:00
+[2024-12-01T23:02:11.069-0300] {processor.py:208} INFO - Processing /home/meula/.pyenv/versions/3.9.20/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.291 seconds
